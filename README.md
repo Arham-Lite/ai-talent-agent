@@ -1,5 +1,9 @@
 # AI Talent Scouting & Engagement Agent
 
+A lightweight AI-powered recruitment assistant that automates candidate shortlisting using skill matching and scoring.
+
+---
+
 ## Problem
 Recruiters spend significant time manually screening candidates and still struggle to identify the best fit efficiently.
 
@@ -28,14 +32,14 @@ It takes a job description, extracts relevant skills, compares them with candida
 
 ---
 
+## Architecture
+
+JD Input → Skill Extraction → Candidate Matching → Interest Scoring → Final Ranking → Output
+
+---
+
 ## How to Run
 
 ```bash
 pip install streamlit
 python -m streamlit run app.py
-
-A lightweight AI-powered recruitment assistant that automates candidate shortlisting using skill matching and scoring.
-
-## Architecture
-
-JD Input → Skill Extraction → Candidate Matching → Interest Scoring → Final Ranking → Output
