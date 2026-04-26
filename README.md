@@ -33,3 +33,9 @@ It takes a job description, extracts relevant skills, compares them with candida
 ```bash
 pip install streamlit
 python -m streamlit run app.py
+
+A lightweight AI-powered recruitment assistant that automates candidate shortlisting using skill matching and scoring.
+
+## Architecture
+
+JD Input → Skill Extraction → Candidate Matching → Interest Scoring → Final Ranking → Output
